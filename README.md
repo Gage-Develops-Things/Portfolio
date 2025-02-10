@@ -29,4 +29,5 @@ n/a
 This application is covered under the MIT license.
 
 ## Questions
-Screenshot: 
+Screenshot: ![image](https://github.com/user-attachments/assets/53f0fc46-62dc-4bf8-9c64-fe1281db864b)
+
