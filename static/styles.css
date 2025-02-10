@@ -1,0 +1,278 @@
+/* .vp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+img {
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.mycard {
+    margin-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.title {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.subtitle {
+    color: white;
+    font-size: larger;
+    line-height: 2;
+}
+
+p {
+    color: white;
+}
+
+.content {
+    color: white;
+}
+
+.fs-4 {
+    color: white;
+}
+
+.container {
+    background-color: rgba(25, 25, 25, .5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+body {
+    background-image: url("./canyon.jpg");
+    background-size: cover;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+.item {
+    text-decoration: none;
+    display: block;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+}
+
+.navly {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+
+    color: white;
+}
+
+.navly-item {
+    padding: 15px;
+    display: block;
+}
+
+.actively {
+    color: white;
+    background-color:  rgb(153, 83, 83);
+    border-radius: 10px;
+    border-style: none;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+}
+
+.sub-button {
+    color: white;
+    background-color: rgb(153, 83, 83);
+    border-radius: 10px;
+    border-style: none;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+}
+
+.sub-button:hover {
+        background-color:  rgb(146, 58, 58);
+}
+
+.resume {
+    text-decoration: none;
+    color: rgb(153, 83, 83);
+    font-weight: 700;
+    font-size: large;
+    margin-left: 50px;
+}
+
+.resume:hover {
+    color: rgb(146, 58, 58);
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(153, 83, 83);
+    font-weight: 700;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.footer-link:hover {
+    color: rgb(146, 58, 58);
+}
+
+.white {
+    color: white;
+    text-decoration: none;
+}
+
+.margin-right {
+    margin-right: 1rem;
+}
+
+footer span {
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    height: 250px;
+    width: 250px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.project h3{
+    font-size: 20px;
+}
+
+.cover{
+    width: 250px;
+    height: 0px;
+    display: none;    
+    text-align: center;
+}
+
+#chronobyte {
+    background-image: url(./chronobyte-img.png);
+    background-size: 250px 250px;
+}
+
+#chronobyte:hover > .cover {
+    background-color: rgba(25, 25, 25, .5);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+#astrology {
+    background-image: url(./astrology.png);
+    background-size: 250px 250px;
+}
+
+#astrology:hover > .cover {
+    background-color: rgba(25, 25, 25, .5);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#dinky {
+    background-image: url(./first-website.png);
+    background-size: 250px 250px;
+}
+
+#dinky:hover > .cover {
+    background-color: rgba(25, 25, 25, .5);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#weather {
+    background-image: url(./weather-site.png);
+    background-size: 250px 250px;
+}
+
+#weather:hover > .cover {
+    background-color: rgba(25, 25, 25, .5);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#vehicle {
+    background-image: url(./vehicle-img.png);
+    background-size: 250px 250px;
+}
+
+#vehicle:hover > .cover {
+    background-color: rgba(25, 25, 25, .5);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#employee {
+    background-image: url(./employee.png);
+    background-size: 250px 250px;
+}
+
+#employee:hover > .cover {
+    background-color: rgba(25, 25, 25, .5);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+a:hover > h3 {
+    color: rgb(153, 83, 83);
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name {
+    transition: letter-spacing 2s;
+}
+
+.name:hover {
+    letter-spacing: 2px;
+}
