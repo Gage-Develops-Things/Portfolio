@@ -11,7 +11,7 @@ A portfolio of my creations so far, an about me section, a resume section, and a
 [Questions](#questions)
 
 ## Description
-This website uses React and their Router capability to show the viewer a multipage website.
+This website uses React and their Router capability to show the viewer a multipage website.  This website uses some Bootstrap styling elements.
 
 ## Installation
 View my portfolio website live from Netlify: https://gage-d-portfolio.netlify.app/
